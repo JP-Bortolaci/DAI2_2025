@@ -1,0 +1,22 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+} */
+
+
+body {
+    margin: 2%;
+}
+
+label{
+    display: block;
+}
+
+section{
+    margin-top: 1%;
+}
+
+button{
+    display: inline;
+}
