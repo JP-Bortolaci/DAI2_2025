@@ -1,0 +1,62 @@
+header.container {
+    background-color: red;
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color: rgb(103, 229, 7);
+    display: flex;
+    width: 100vw;
+    height: 150px;
+}
+
+main.container {
+    background-color: rgb(40, 7, 159);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* column-gap: 50px;
+    row-gap: 50px; */
+    gap: 5px 0px;
+    flex-flow: row nowrap; /* FLEX-FLOW é um short-hand para as propriedades flex-direction e flex-wrap, nesta ordem. */
+}
+
+/* Flexbox só trabalha um eixo de cada vez, ou seja, ou na horizontal ou na vertical. */
+
+.item {
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+    order: 5;
+}
+
+.item1 {
+    background-color: violet;
+    order: 3;
+    /* flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 1; */
+    flex: 2 1 300px;
+}
+.item2 {
+    background-color: rgb(136, 231, 255);
+    order: 4;
+}
+.item3 {
+    background-color: rgb(255, 176, 58);
+    order: 1;
+}
+.item4 {
+    background-color: rgb(22, 255, 22);
+    order: 0;
+    flex-shrink:3;
+}

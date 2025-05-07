@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "cabecalho cabecalho cabecalho"
+    "principal principal noticias"
+    "principal principal menu"
+    "principal principal menu"
+    "rodape rodape rodape"
+    ;
+    height: 100vh;
+}
+
+.cabecalho {
+    background-color: red;
+    grid-area: cabecalho;
+}
+
+.principal {
+    background-color: chartreuse;
+    grid-area: principal;
+}
+
+.noticias {
+    background-color: blueviolet;
+    grid-area: noticias;
+}
+
+.menu {
+    background-color: blue;
+    grid-area: menu;
+}
+
+.rodape {
+    background-color: orange;
+    grid-area: rodape;
+}
+
+@media (max-width: 800px) {
+    .container {
+        display: grid;
+        grid-template-areas:
+        "cabecalho cabecalho cabecalho"
+        "menu menu menu"
+        "noticias noticias noticias"
+        "principal principal principal"
+        "principal principal principal"
+        "rodape rodape rodape"
+        ;
+        height: 100vh;
+    }
+}
