@@ -8,26 +8,26 @@
     
 </head>
 <body>
-    <main>
+    <main class="container">
         <h1>Informe seus dados</h1>
         <section>
-            <label for="input">Nome:</label>
+            <label for="name">Nome:</label>
             <input type="text" id="name" placeholder="Digite o seu nome" required>
         </section>
         <section>
-            <label for="input">Idade:</label>
+            <label for="age">Idade:</label>
             <input type="number" id="age" placeholder="Digite a sua idade" required>
         </section>
         <section>
-            <label for="input">Profissão:</label>
+            <label for="profession">Profissão:</label>
             <input type="text" id="profession" placeholder="Digite a sua profissão" required>
-            <button type="submit" onclick="pegarDados()">Enviar</button>
         </section>
+        <button type="submit" onclick="pegarDados()">Enviar</button>
 
         <section>
             <h2 id="result"></h2>
         </section>
     </main>
-    <script src="/scripts/script.js"></script>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

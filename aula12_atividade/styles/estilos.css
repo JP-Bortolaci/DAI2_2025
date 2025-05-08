@@ -1,12 +1,24 @@
-/* *{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
-} */
+}
 
+html{
+    font-size: 62.5%;
+}
 
 body {
-    margin: 2%;
+    background: linear-gradient(135deg, rgb(138, 138, 241), rgb(75, 0, 75));
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 2vw;
 }
 
 label{
@@ -15,8 +27,41 @@ label{
 
 section{
     margin-top: 1%;
+    font-size: 1vw;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+input:focus{
+    border-color: blue;
+    transform: scale(1.02);
+    outline: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 button{
-    display: inline;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.527);
+    color: white;
+    background-color: blue;
+    border: 0;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 2%;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.95);
 }
