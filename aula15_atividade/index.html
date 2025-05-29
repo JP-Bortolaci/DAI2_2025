@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula01</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main class="container">
+        <section class="firstNum">
+            <label id="firstNumLabel" for="firstNum">1º Número</label>
+            <input type="number" id="firstNum" placeholder="Digite o primeiro número" required>
+        </section>
+        <section class="secondNum">
+            <label id="secondNumLabel" for="secondNum">2º Número</label>
+            <input type="number" id="secondNum" placeholder="Digite o segundo número" required>
+        </section>
+        <section class="buttonsContainer"> 
+            <button type="submit" class="opButtons" id="sum-btn" onclick="sum()">+</button>
+            <button type="submit" class="opButtons" id="subtraction-btn" onclick="subtraction()">-</button>
+            <button type="submit" class="opButtons" id="div-btn" onclick="division()">/</button>
+            <button type="submit" class="opButtons" id="multi-btn" onclick="multiplication()">x</button>
+        </section>
+        <p id="result"></p>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

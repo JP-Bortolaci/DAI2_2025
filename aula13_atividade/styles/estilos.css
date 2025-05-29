@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(255, 152, 255), rgb(155, 255, 155));
+    width: 100vw;
+    height: 100vh;
+}
+
+.container > label {
+    width: 80%;
+    height: 3%;
+}
+
+.container > input {
+    border-radius: 10px;
+    width: 80%;
+    height: 4%;
+}
+
+.container{
+    background-color: white;
+    margin: 0 auto;
+    align-items: center;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 25px rgb(112, 112, 112);
+}
+
+.main-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.atestado > h1{
+    font-size: 3vw;
+    grid-column: 3/4;
+    margin: 0 auto;
+}
+
+#atestado{
+    grid-column: 2/5;
+    font-size: 2vw;
+}
+
+.atestado{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    flex-direction: column;
+    width: 75%;
+    align-items: center;
+}
+
+.atestado-button{
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    height: 5%;
+    width: 35%;
+    margin: 2% auto;
+    box-shadow: 5px 5px 25px rgb(112, 112, 112);
+}
+
+.atestado-button:hover{
+    transform: scale(1.04);
+}
+
+.atestado-button:active{
+    transform: scale(0.90);
+}
+
+.reset-btn{
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    height: 35%;
+    width: 100%;
+    box-shadow: 5px 5px 25px rgb(112, 112, 112);
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+
+.reset-btn:hover{
+    transform: scale(1.04);
+}
+
+.reset-btn:active{
+    transform: scale(0.90);
+}
+
+
+.reset-form{
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    height: 35%;
+    width: 100%;
+    box-shadow: 5px 5px 25px rgb(112, 112, 112);
+    grid-column: 3/4;
+    grid-row: 5/6;
+}

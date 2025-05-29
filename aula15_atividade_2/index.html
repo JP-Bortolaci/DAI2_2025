@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula01</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main class="container">
+        <input type="number" id="display" readonly>
+        <button class="btns" id="button7" onclick="addNum(7)">7</button>
+        <button class="btns" onclick="addNum(8)">8</button>
+        <button class="btns" onclick="addNum(9)">9</button>
+        <button class="btns" onclick="addNum(4)">4</button>
+        <button class="btns" onclick="addNum(5)">5</button>
+        <button class="btns" onclick="addNum(6)">6</button>
+        <button class="btns" onclick="addNum(1)">1</button>
+        <button class="btns" onclick="addNum(2)">2</button>
+        <button class="btns" onclick="addNum(3)">3</button>
+        <button class="btns" onclick="addNum(0)">0</button>
+
+        <section class="operationSection">
+            <button class="opBtns" onclick="setOp('+')">+</button>
+            <button class="opBtns" onclick="setOp('-')">-</button>
+            <button class="opBtns" onclick="setOp('/')">/</button>
+            <button class="opBtns" onclick="setOp('x')">x</button>
+            <button class="opBtns" onclick="calculate()">=</button>
+            <button class="opBtns" onclick="clear()">clear</button>
+            <button class="opBtns" onclick="deleteLast()">back</button>
+        </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
