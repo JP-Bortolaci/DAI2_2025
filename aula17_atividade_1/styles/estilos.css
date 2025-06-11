@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.main {
+    width: 100%;
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#inputNumber {
+    width: 78%;    
+}
+
+#inputBtn {
+    width: 20%;
+}
+
+p {
+    align-content: center;
+}

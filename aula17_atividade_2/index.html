@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Semáforo</h1>
+        <section class="main">
+            <div class="lights" id="redLight"></div>
+            <div class="lights" id="yellowLight"></div>
+            <div class="lights" id="greenLight"></div>
+        </section>
+        <section class="btnSection">
+            <button class="toggleButtons" id="redButton" onclick="chooseLight(1)">Vermelho</button>
+            <button class="toggleButtons" id="yellowButton" onclick="chooseLight(2)">Amarelo</button>
+            <button class="toggleButtons" id="greenButton" onclick="chooseLight(3)">Verde</button>
+        </section>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
