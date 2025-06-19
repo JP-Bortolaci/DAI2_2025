@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 50vw;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: 2rem;
+}
+
+#mOver {
+    background-color: red;
+}
+
+#mClick {
+    background-color: green;
+}
