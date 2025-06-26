@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="styles/estilos.css">
+</head>
+<body>
+    <nav class="container">
+        <div class="productContainer">
+            <img src="images/morangos.jpg" alt="morangos frescos">
+            <h1 class="productName">Morangos</h1>
+            <h2 class="description">Morangos fresquinhos.</h2>
+            <p class="price">R$ 10,50</p>
+            <button id="morangoBtn" class="cartButton" onmouseover="mOver('morangoBtn')" onmouseleave="mLeave('morangoBtn')" onclick="addToCart('Morangos')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="productContainer">
+            <img src="images/nozes.jpg" alt="nozes recém colhidas">
+            <h1 class="productName">Nozes</h1>
+            <h2 class="description">Deliciosas nozes colhidas no dia.</h2>
+            <p class="price">R$ 25,90</p>
+            <button id="nozBtn" class="cartButton" onmouseover="mOver('nozBtn')" onmouseleave="mLeave('nozBtn')" onclick="addToCart('Nozes')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="productContainer">
+            <img src="images/ovos.jpg" alt="cartela de 30 ovos">
+            <h1 class="productName">Ovos</h1>
+            <h2 class="description">Ovos de galinhas felizes.</h2>
+            <p class="price">R$ 12,90</p>
+            <button id="ovosBtn" class="cartButton" onmouseover="mOver('ovosBtn')" onmouseleave="mLeave('ovosBtn')" onclick="addToCart('Ovos')">Adicionar ao Carrinho</button>
+        </div>
+        <div class="productContainer">
+            <img src="images/pao italiano.jpg" alt="Pães italiano">
+            <h1 class="productName">Pão Italiano</h1>
+            <h2 class="description">Maravilhoso pão italiano para comer com sopa</h2>
+            <p class="price">R$ 19,90</p>
+            <button id="paoBtn" class="cartButton" onmouseover="mOver('paoBtn')" onmouseleave="mLeave('paoBtn')" onclick="addToCart('Pão Italiano')">Adicionar ao Carrinho</button>
+        </div>
+    </nav>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
